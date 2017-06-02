@@ -104,6 +104,8 @@ The arguments do the following:
  - Scan the read with a 4-base wide sliding window, cutting when the average quality per base drops below 15 (SLIDINGWINDOW:4:15)
  - Drop reads below the 75 bases long (MINLEN:75)
 
+To align the reads to the reference genome *bwa 0.7.12* was used:
+
 BWA is a software package for mapping sequences against a reference genome. The algorithm BWA-MEM (Max Exact Matches) is designed for Illumina sequence reads from 70bp to 1Mbp. Since *Trimmomatic* was run with `MINLEN:75` (see "Step 2"), the reads should be >=75 bp, so BWA-MEM has been used. It has the best performace for 70-100bp Illumina reads (http://bio-bwa.sourceforge.net/).
 
 `bwa index ${referenceGenome}`
