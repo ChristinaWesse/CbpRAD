@@ -96,9 +96,9 @@ The Python script was executed on the HPCC biocluster of the University of Calif
 
  - Job-Nov14.sh (see "Nov14"; log file is `Brcds-Nov14.txt.log`)
  
- - Job-Am1-switch.sh (see "America1"; log file is `Brcd-Am-Pool1-Switch.txt.log`)
+ - Job-Am1.sh (see "America1"; log file is `Brcd-Am-Pool1-Switch.txt.log`)
  
- - Job-Am2-switch.sh (see "America2"; log file is `Brcd-Am-Pool2-Switch.txt.log`)
+ - Job-Am2.sh (see "America2"; log file is `Brcd-Am-Pool2-Switch.txt.log`)
 
  - Job-Nov15.sh (see "Nov15"; log file is `Brcds-Nov15.txt.log`)
 
